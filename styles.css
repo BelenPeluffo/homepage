@@ -247,16 +247,28 @@ body {
   color: var(--secondary-text-color);
 }
 
-.additional-info__languages {
+.additional-info__languages,
+.additional-info__hobbies,
+.additional-info__career {
   margin-bottom: 20px;
 }
 
-.additional-info__languages-header {
+.additional-info__languages-header,
+.additional-info__hobbies-header,
+.additional-info__career-header {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
 
-.additional-info__languages-item {
+.additional-info__languages-item,
+.additional-info__hobbies-item,
+.additional-info__career-item {
   color: var(--secondary-text-color);
+}
+
+.additional-info__hobbies-item,
+.additional-info__career-item {
+  text-indent: -5%;
+  padding-left: 5%;
 }
